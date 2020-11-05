@@ -1,0 +1,1 @@
+console.log('12' < '9'); // => true. Since it's strings it evaluates '1' < '9' first, therefore '12' < '9' is true.

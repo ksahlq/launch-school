@@ -1,0 +1,1 @@
+// One might expect index out of bounds or similar error. However JS gives out undefined.
