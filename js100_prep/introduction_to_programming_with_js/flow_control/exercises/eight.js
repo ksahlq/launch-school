@@ -13,4 +13,4 @@ numerRange = (number) => {
 numerRange(25);
 numerRange(75);
 numerRange(125);
-numerRange(-25);
+numerRange(-25);  
