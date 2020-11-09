@@ -1,9 +1,9 @@
 capsLock = (stringInput) => {
   if (stringInput.length >= 10) {
-    console.log(String.prototype.toUpperCase(stringInput));
+    console.log(stringInput.toUpperCase());
   }
   else {
-    console.log(String.prototype.toUpperCase(stringInput));
+    console.log(stringInput);
   }
 }
 
