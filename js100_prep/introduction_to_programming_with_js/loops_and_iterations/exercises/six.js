@@ -3,11 +3,12 @@ function factorial(number) {
   if (number === 0) {
     return result;
   } else {
-    return number * recursive(number - 1);
+    return number * factorial(number - 1);
   }
 }
 
-console.log(recursive(0));
-console.log(recursive(5));
-console.log(recursive(6));
-console.log(recursive(7));
+console.log(factorial(0));
+console.log(factorial(5));
+console.log(factorial(6));
+console.log(factorial(7));
+
