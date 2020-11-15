@@ -17,3 +17,12 @@ function evenArray(array) {
 }
 
 evenArray(myArray);
+
+// solve using forEach instead
+myArray.forEach(function(nestedArray) {
+  nestedArray.forEach(function(value) {
+    if (value % 2 === 0) {
+      console.log(value);
+    }
+  });
+});
