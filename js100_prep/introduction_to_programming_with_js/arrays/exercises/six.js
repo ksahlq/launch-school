@@ -6,11 +6,7 @@ function oddLengths(array) {
       return element.length;
     } 
   });
-  let stringsToNumbers = oddArray.map(function(element){
-    if (element.length !== 0) {
-      return element.length;
-    }
-  });  
+  let stringsToNumbers = oddArray.map((element) => element.length);
   return stringsToNumbers;
 }
 
