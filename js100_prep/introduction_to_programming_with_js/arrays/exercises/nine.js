@@ -17,7 +17,7 @@ console.log(checkIfNumberThree(numbers1));
 console.log(checkIfNumberThree(numbers2));
 console.log(checkIfNumberThree(numbers3));
 
-// can also use includes() method
+// Can also use includes() method
 
 console.log(numbers1.includes(3));
 console.log(numbers2.includes(3));
